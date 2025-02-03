@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --heading-font: Oswald;
+    --paragraph-font: Roboto;
+}
+
+h2, h3, h4, h5, h6, p {
+    font-family: var(--paragraph-font);
+}
+
+.home-title, .msg h2 {
+    font-family: var(--heading-font);
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +23,7 @@ nav a {
     text-align: center;
     color: #ff6347;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +45,9 @@ main section {
 
 body {
     background-color: #ffdab9;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -41,6 +61,10 @@ nav a:hover {
 .book, .join {
     text-decoration: none;
     background-color: #ff4500;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -49,11 +73,15 @@ nav a:hover {
 
 .msg {
     background-color: #f08080;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     color: #ff6347;
     background-color: #003366;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -62,7 +90,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffd700; /* Gold */
+    color: #ffd700;
 }
 
 footer p {
@@ -74,23 +102,32 @@ footer p a:hover {
 }
 
 .home-title {
-    color: #ff6347; /* Sunset orange */
+    color: #ff6347;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
-    color: #003366; /* Deep navy */
+    color: #003366;
 }
 
 .msg h2 {
-    color: #003366; /* Deep navy */
+    color: #003366;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg p {
-    color: #003366; /* Deep navy */
+    color: #003366;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -101,3 +138,18 @@ h4 {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
