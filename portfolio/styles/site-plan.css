@@ -134,7 +134,7 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "page2 page2 . . page3 page3";
+    "skills skills . . projects projects";
 }
 .sitemap > div {
 
@@ -146,13 +146,13 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
-  grid-area: page2;
+.sm-skills {
+  grid-area: skills;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
-  grid-area: page3;
+.sm-projects {
+  grid-area: projects;
   background-color: #ccc;
   line-height: 3em;
 }
